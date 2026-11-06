@@ -1,0 +1,14 @@
+# Model downloads (several GB): the notebook sets HF_HOME / TORCH_HOME to ./cache
+cache/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+unsloth_compiled_cache/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
